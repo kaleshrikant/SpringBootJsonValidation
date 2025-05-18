@@ -1,1 +1,5 @@
-spring.application.name=JsonValidation
+spring:
+  jackson:
+    property-naming-strategy: KEBAB_CASE
+  application:
+    name: JsonValidation
